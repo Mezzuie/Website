@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Brother 1816 Bold */
+        @font-face {
+          font-family: 'Brother1816Bold';
+          src: url('fonts/brother-1816-bold.otf') format('opentype');
+          font-weight: bold;
+          font-style: normal;
+        }
+    
+        /* Brother 1816 Book */
+        @font-face {
+          font-family: 'Brother1816Book';
+          src: url('fonts/brother-1816-book.otf') format('opentype');
+          font-weight: normal;
+          font-style: normal;
+        }
+    
+        /* Helvetica World Bold */
+        @font-face {
+          font-family: 'HelveticaWorldBold';
+          src: url('fonts/HelveticaWorld-Bold.ttf') format('truetype');
+          font-weight: bold;
+          font-style: normal;
+        }
+    
+        /* Helvetica World Regular */
+        @font-face {
+          font-family: 'HelveticaWorldRegular';
+          src: url('fonts/HelveticaWorld-Regular.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+        }
+    
+        /* Tailwind helper classes */
+        .font-brother-bold   { font-family: 'Brother1816Bold', sans-serif; }
+        .font-brother-book   { font-family: 'Brother1816Book', sans-serif; }
+        .font-helvetica-bold { font-family: 'HelveticaWorldBold', sans-serif; }
+        .font-helvetica-reg  { font-family: 'HelveticaWorldRegular', sans-serif; }
+      </style>
+</head>
+<body class="m-0 p-0">
+    <header class="w-full" style="background-color: #e9d5d5;">
+        <h1 class="text-center font-brother-book text-[60px] pt-1 pb-0 mb-[-10px]">MEZZUIE</h1>
+    </header>
+    <div class="w-full" style="background-color: #e9d5d5;">
+        <p class="text-center text-[18px] font-brother-book pb-2 leading-tight">I think stuff like this is pretty cool</p>
+    </div>
+    
+      <!-- Navigation row -->
+    <div class="w-full flex justify-center gap-3 py-3
+      " style="background-color: #e9d5d5;">
+        <a href="reviews.html" 
+           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
+           Reviews
+        </a>
+        <a href="creations.html" 
+           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
+           Creations
+        </a>
+        <a href="sparks.html" 
+           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] text-center font-brother-book hover:bg-[#e2c7c7] transition">
+           Sparks
+        </a>
+    </div>
+    <div class="max-w-[420px] mx-auto px-4 my-4">
+        <img src="photos/penang photo.jpg" alt="Penang" class="w-full h-auto rounded-lg" />
+        <p class="text-center text-[16px] font-brother-book py-[4px]"> Here's a photo of a random couple i took in Penang <br> Aug 25</p>
+    </div>
+</body>
+</html>
