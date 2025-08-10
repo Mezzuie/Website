@@ -10,73 +10,63 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Brother 1816 Bold */
-        @font-face {
-          font-family: 'Brother1816Bold';
-          src: url('fonts/brother-1816-bold.otf') format('opentype');
-          font-weight: bold;
-          font-style: normal;
-        }
-    
-        /* Brother 1816 Book */
-        @font-face {
-          font-family: 'Brother1816Book';
-          src: url('fonts/brother-1816-book.otf') format('opentype');
-          font-weight: normal;
-          font-style: normal;
-        }
-    
-        /* Helvetica World Bold */
-        @font-face {
-          font-family: 'HelveticaWorldBold';
-          src: url('fonts/HelveticaWorld-Bold.ttf') format('truetype');
-          font-weight: bold;
-          font-style: normal;
-        }
-    
-        /* Helvetica World Regular */
-        @font-face {
-          font-family: 'HelveticaWorldRegular';
-          src: url('fonts/HelveticaWorld-Regular.ttf') format('truetype');
-          font-weight: normal;
-          font-style: normal;
-        }
-    
-        /* Tailwind helper classes */
-        .font-brother-bold   { font-family: 'Brother1816Bold', sans-serif; }
-        .font-brother-book   { font-family: 'Brother1816Book', sans-serif; }
-        .font-helvetica-bold { font-family: 'HelveticaWorldBold', sans-serif; }
-        .font-helvetica-reg  { font-family: 'HelveticaWorldRegular', sans-serif; }
-      </style>
-</head>
-<body class="m-0 p-0">
-    <header class="w-full" style="background-color: #e9d5d5;">
-        <h1 class="text-center font-brother-book text-[60px] pt-1 pb-0 mb-[-10px]">MEZZUIE</h1>
-    </header>
-    <div class="w-full" style="background-color: #e9d5d5;">
-        <p class="text-center text-[18px] font-brother-book pb-2 leading-tight">That's right I spent 10 dollars on this domain</p>
-    </div>
-    
-      <!-- Navigation row -->
-    <div class="w-full flex justify-center gap-3 py-3
-      " style="background-color: #e9d5d5;">
-        <a href="reviews.html" 
-           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
-           Reviews
-        </a>
-        <a href="creations.html" 
-           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
-           Creations
-        </a>
-        <a href="sparks.html" 
-           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] text-center font-brother-book hover:bg-[#e2c7c7] transition">
-           Sparks
-        </a>
-    </div>
-    <div class="max-w-[420px] mx-auto px-4 my-4">
-        <img src="photos/penang photo.jpg" alt="Penang" class="w-full h-auto rounded-lg" />
-        <p class="text-center text-[16px] font-brother-book py-[4px]"> Here's a photo of a random couple i took in Penang <br> Aug 25</p>
-    </div>
-</body>
+      /* Brother 1816 Book */
+      @font-face {
+        font-family: 'Brother1816Book';
+        src: url('fonts/brother-1816-book.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
 
+      /* Tailwind helper classes */
+      .font-brother-book   { font-family: 'Brother1816Book', sans-serif; }
+    </style>
+</head>
+
+<body class="m-0 p-0">
+  <header class="w-full" style="background-color: #f4eaea;">
+    <div class="relative flex justify-center items-center h-[80px]">
+      <h1 class="font-brother-book text-[60px] m-0 p-0 relative">
+        <a href="home.html" 
+          class="absolute left-[-80px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
+          <img src="./icons/home.png" 
+            alt="Home" 
+            style="width: 50px; height: auto;">
+        </a>
+        MEZZUIE
+        <a href="https://youtu.be/r9rLwyFQfc8" target="_blank" rel="noopener noreferrer"
+          class="absolute right-[-78px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
+          <img src="./icons/music-note.png"
+            alt="Music"
+            style="width: 50px; height: auto;">
+        </a>
+      </h1>
+    </div>
+  </header>
+
+  <div class="w-full" style="background-color: #f4eaea;">
+      <p class="text-center text-[18px] font-brother-book pb-2 leading-tight">Yeah I spent 10 bucks to buy this website</p>
+  </div>
+  
+    <!-- Navigation row -->
+  <div class="w-full flex justify-center gap-3 py-3
+    " style="background-color: #f4eaea;">
+      <a href="reviews.html" 
+          class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
+          Reviews
+      </a>
+      <a href="creations.html" 
+          class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
+          Creations
+      </a>
+      <a href="sparks.html" 
+          class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] text-center font-brother-book hover:bg-[#e2c7c7] transition">
+          Sparks
+      </a>
+  </div>
+  <div class="max-w-[420px] mx-auto px-4 my-4">
+      <img src="photos/penang photo.jpg" alt="Penang" class="w-full h-auto rounded-lg" />
+      <p class="text-center text-[16px] font-brother-book py-[4px]"> Here's a photo of a random couple i took in Penang <br> Aug 25</p>
+  </div>
+</body>
 </html>
