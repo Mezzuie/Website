@@ -17,48 +17,76 @@
         font-weight: normal;
         font-style: normal;
       }
-
+      @font-face {
+        font-family: 'Brother1816Regular';
+        src: url('fonts/Brother1816-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
       /* Tailwind helper classes */
       .font-brother-book   { font-family: 'Brother1816Book', sans-serif; }
+      .font-brother-reg   {font-family: 'Brother1816Reg', sans-serif; }
     </style>
 </head>
-<body class="m-0 p-0">
-    <header class="w-full" style="background-color: #f4eaea;">
-        <div class="relative flex justify-center items-center h-[80px]">
-        <h1 class="font-brother-book text-[60px] m-0 p-0 relative">
-            <a href="home.html" 
+<body class="m-0 p-0" style="background-color: #f4eaea">
+    <header class="w-full" style="background-color: #dbb9ba;">
+      <div class="relative flex justify-center items-center h-[80px]">
+        <h1 class="font-brother-book text-[40px] md:text-[60px] m-0 p-0 relative">
+          <a href="home.html" 
             class="absolute left-[-80px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
             <img src="./icons/home.png" 
                 alt="Home" 
-                style="width: 50px; height: auto;">
-            </a>
-            MEZZUIE
-            <a href="https://youtu.be/r9rLwyFQfc8" target="_blank" rel="noopener noreferrer"
+                class="w-[33px] md:w-[50px] h-auto">
+          </a>
+          MEZZUIE
+          <a href="https://youtu.be/r9rLwyFQfc8" target="_blank" rel="noopener noreferrer"
             class="absolute right-[-78px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
             <img src="./icons/music-note.png"
                 alt="Music"
-                style="width: 50px; height: auto;">
-            </a>
+                class="w-[33px] md:w-[50px] h-auto">
+          </a>
         </h1>
-        </div>
+      </div>
     </header>
-    <div class="w-full" style="background-color: #f4eaea;">
-        <p class="text-center text-[18px] font-brother-book pb-2 leading-tight">I'll be putting my reviews of books/places/experiences here</p>
+
+    <div class="w-full" style="background-color: #dbb9ba;">
+        <p class="text-center text-[18px] text-[#413737] font-brother-book pb-2 leading-tight">I'll be putting my reviews of books/places/experiences here</p>
     </div>
     
       <!-- Navigation row -->
     <div class="w-full flex justify-center gap-3 py-3
-      " style="background-color: #f4eaea;">
+      " style="background-color: #dbb9ba;">
         <div 
-           class="bg-[#e9d5d5] rounded-[10px] px-4 py-1 text-[20px] font-brother-book">
+           class="bg-[#e9d5d5] rounded-[10px] px-4 py-1 text-[20px] text-[#2b2525] font-brother-book">
            Reviews
         </div>
         <a href="creations.html" 
-           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] font-brother-book hover:bg-[#e2c7c7] transition">
+           class="bg-[#ca9799] rounded-[10px] px-4 py-1 text-[20px] text-[#2b2525] font-brother-book hover:bg-[#e2c7c7] transition">
            Creations
         </a>
         <a href="sparks.html" 
-           class="bg-[#dbb9ba] rounded-[10px] px-4 py-1 text-[20px] text-center font-brother-book hover:bg-[#e2c7c7] transition">
+           class="bg-[#ca9799] rounded-[10px] px-4 py-1 text-[20px] text-[#2b2525] text-center font-brother-book hover:bg-[#e2c7c7] transition">
            Sparks
         </a>
     </div>
+
+    <div class="max-w-[1000px] py-5 px-5 mx-auto my-4">
+      <p class = "text-[24px] font-brother-reg"> 10 Aug 25 </p>
+      <p class ="font-brother-book">So recently I went to a cat cafe called Catonomy in Penang and met the most friendly cats I've seen in awhile they were legit sooooo charming. It was located around a 10 minutes walk from my accomodation in Georgetown, so I think it was pretty convenient to get to! This was my second time visiting a cat cafe so I was wondering how it'd go this time, because the last time I went to one the cafe was so small and the cats were all so stressed that they were completely disinterested in interacting with humans which was quite disappointing to see D:.<br><br> So when I stepped into the cafe I was happy to see that it took up the entirety of a shophouse and was really big, with a 2nd floor for the cats to go to when (presumably) they were done for the day. The cats were all very friendly and used to humans so it was really nice. Plus, the entry fee was buying a meal/drink from them, and I ordered the Kaarage Don from them at only ~RM20 which was such a steal! It was hella fun, 10/10 would go again if I ever were to go back to Penang.
+      <br><br>
+      Notable cats: Super affectionate Ragdoll (no vid cuz it left to go upstairs), 2 young Tuxedoes (pickupable), and Boba Eyes<br>
+      <br>
+      Cat Tax:
+      <iframe style="width: 100%; max-width: 1000px; height: 540px;"
+        src="https://www.youtube.com/embed/kmP8oIZ44uI" 
+        allowfullscreen>
+      </iframe>   
+      <br><br>
+      <iframe style="width: 100%; max-width: 1000px; height: 540px;"
+        src="https://www.youtube.com/embed/sR1uDhHX2cw" 
+        allowfullscreen>
+      </iframe>
+      </p>
+    </div>
+</body>
+</html>
