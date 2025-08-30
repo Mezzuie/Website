@@ -14,12 +14,27 @@
       @font-face {
         font-family: 'Brother1816Book';
         src: url('fonts/brother-1816-book.otf') format('opentype');
-        font-weight: normal;
-        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'OpenSauceSansSemiBold';
+        src: url('fonts/OpenSauceSans-SemiBold.otf') format('opentype');
       }
 
       /* Tailwind helper classes */
       .font-brother-book   { font-family: 'Brother1816Book', sans-serif; }
+      .font-opensaucesans-semibold { font-family: 'OpenSauceSansSemiBold', sans-serif;}
+
+      .pink-line {
+      border: none;               
+      height: 5px;                
+      width: 110%;                
+      background-color: #dbb9ba; 
+      margin: 20px auto;         /* keeps it centered relative to container */
+      position: relative;
+      left: 50%;                 /* move to the horizontal center */
+      transform: translateX(-50%); /* shift back by half its own width */
+      }
     </style>
 </head>
 <body class="m-0 p-0" style="background-color: #f4eaea">
@@ -33,7 +48,7 @@
                 class="w-[33px] md:w-[50px] h-auto">
           </a>
           MEZZUIE
-          <a href="https://youtu.be/r9rLwyFQfc8" target="_blank" rel="noopener noreferrer"
+          <a href="https://youtu.be/xx6hpNYFQS4?si=flfK3OcTJeoN1uc5" target="_blank" rel="noopener noreferrer"
             class="absolute right-[-78px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
             <img src="./icons/music-note.png"
                 alt="Music"
@@ -63,10 +78,17 @@
         </a>
     </div>
   <div class="max-w-[1000px] py-5 px-5 mx-auto my-4">
-    <p class = "text-[30px] font-brother-reg"> I made a car this summer! </p>
+    <p class = "text-[24px] font-opensaucesans-semibold"> 3D Printed Parrot 𓅪 </p>
+    <p class ="font-brother-book">I got a bit bored and 3D Printed a Minecraft Parrot and then painted it. Note to self: Maybe sand down the sides before painting in the future?<br>
+    I also did a couple smaller animals earlier, won't be painting them cuz i'm too lazy ‎( ꜆-ࡇ-)꜆</p>
+    <img src="photos/parrot.jpg" alt="Parrot" class="h-[700px] rounded-lg"/> <br><br>
+      
+    <div class="pink-line"></div><br><br>
+
+    <p class = "text-[24px] font-opensaucesans-semibold"> My Summer Car ō͡≡о </p>
     <p class ="font-brother-book">My friend did this fantastic blog about it so I'm not gonna talk about it again, but what I will do is link the video I made hehe <br><br></be> </p>
     <a href="https://blogs.ntu.edu.sg/ps5888-2025-g03/"
-      class="bg-[#b9dbda] rounded-[10px] px-4 pt-1 pb-2 text-[20px] md:text-[25px] text-[#2b2525] font-brother-book hover:bg-[#c7e2e1] transition">
+      class="bg-[#b9dbda] rounded-[10px] px-4 pt-1 pb-2 text-[15px] md:text-[20px] text-[#2b2525] font-brother-book hover:bg-[#c7e2e1] transition">
       Click here to view the blog!
     </a><br><br>
     <div class="relative w-full max-w-[1000px] aspect-video">
