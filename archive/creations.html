@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Brother 1816 Book */
+      @font-face {
+        font-family: 'Brother1816Book';
+        src: url('fonts/brother-1816-book.otf') format('opentype');
+      }
+
+      @font-face {
+        font-family: 'OpenSauceSansSemiBold';
+        src: url('fonts/OpenSauceSans-SemiBold.otf') format('opentype');
+      }
+
+      /* Tailwind helper classes */
+      .font-brother-book   { font-family: 'Brother1816Book', sans-serif; }
+      .font-opensaucesans-semibold { font-family: 'OpenSauceSansSemiBold', sans-serif;}
+
+      .pink-line {
+      border: none;               
+      height: 5px;                
+      width: 110%;                
+      background-color: #dbb9ba; 
+      margin: 20px auto;         /* keeps it centered relative to container */
+      position: relative;
+      left: 50%;                 /* move to the horizontal center */
+      transform: translateX(-50%); /* shift back by half its own width */
+      }
+    </style>
+</head>
+<body class="m-0 p-0" style="background-color: #f4eaea">
+    <header class="w-full" style="background-color: #dbb9ba;">
+      <div class="relative flex justify-center items-center h-[80px]">
+        <h1 class="font-brother-book text-[40px] md:text-[60px] m-0 p-0 relative">
+          <a href="home.html" 
+            class="absolute left-[-80px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
+            <img src="./icons/home.png" 
+                alt="Home" 
+                class="w-[33px] md:w-[50px] h-auto">
+          </a>
+          MEZZUIE
+          <a href="https://youtu.be/xx6hpNYFQS4?si=flfK3OcTJeoN1uc5" target="_blank" rel="noopener noreferrer"
+            class="absolute right-[-78px] top-1/2 -translate-y-1/2 transition-opacity hover:opacity-40">
+            <img src="./icons/music-note.png"
+                alt="Music"
+                class="w-[33px] md:w-[50px] h-auto">
+          </a>
+        </h1>
+      </div>
+    </header>
+    <div class="w-full" style="background-color: #dbb9ba;">
+        <p class="text-center text-[18px] text-[#413737] font-brother-book pb-2 leading-tight">A collection of things i've done!</p>
+    </div>
+    
+      <!-- Navigation row -->
+    <div class="w-full flex justify-center gap-3 py-3
+      " style="background-color: #dbb9ba;">
+        <a href="reviews.html"
+           class="bg-[#ca9799] rounded-[10px] px-4 py-1 text-[20px] text-[#2b2525] font-brother-book hover:bg-[#e2c7c7] transition">
+           Reviews
+        </a>
+        <div  
+           class="bg-[#e9d5d5] rounded-[10px] px-4 py-1 text-[20px] text-[#2b2525] font-brother-book">
+           Creations
+    </div>
+        <a href="sparks.html" 
+           class="bg-[#ca9799] rounded-[10px] px-4 py-1 text-[20px] text-[#2b2525] text-center font-brother-book hover:bg-[#e2c7c7] transition">
+           Sparks
+        </a>
+    </div>
+  <div class="max-w-[1000px] py-5 px-5 mx-auto my-4">
+    <p class = "text-[24px] font-opensaucesans-semibold"> 3D Printed Parrot 𓅪 </p>
+    <p class ="font-brother-book">I got a bit bored and 3D Printed a Minecraft Parrot and then painted it. Note to self: Maybe sand down the sides before painting in the future?<br>
+    I also did a couple smaller animals earlier, won't be painting them cuz i'm too lazy ‎( ꜆-ࡇ-)꜆</p>
+    <img src="photos/parrot.jpg" alt="Parrot" class="h-[700px] rounded-lg"/> <br><br>
+      
+    <div class="pink-line"></div><br><br>
+
+    <p class = "text-[24px] font-opensaucesans-semibold"> My Summer Car ō͡≡о </p>
+    <p class ="font-brother-book">My friend did this fantastic blog about it so I'm not gonna talk about it again, but what I will do is link the video I made hehe <br><br></be> </p>
+    <a href="https://blogs.ntu.edu.sg/ps5888-2025-g03/"
+      class="bg-[#b9dbda] rounded-[10px] px-4 pt-1 pb-2 text-[15px] md:text-[20px] text-[#2b2525] font-brother-book hover:bg-[#c7e2e1] transition">
+      Click here to view the blog!
+    </a><br><br>
+    <div class="relative w-full max-w-[1000px] aspect-video">
+        <iframe class="relative inset-0 w-full h-full"
+      src="https://www.youtube.com/embed/eY4ApfM8QJM" 
+      allowfullscreen>
+      </iframe>  
+    </div>
+  </div>
+</body>
+</html>
