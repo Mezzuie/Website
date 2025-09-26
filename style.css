@@ -121,7 +121,7 @@ h2 {
 }
 
 .content img.large {
-    max-width: 100%;  
+    max-width: 70%;  
     height: auto;     
     display: block;  
     margin: auto;
@@ -175,4 +175,5 @@ h2 {
     font-family: 'Brother1816Book';
     color: #574a4a;
     opacity: 60%
+
 }
