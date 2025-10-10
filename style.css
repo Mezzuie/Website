@@ -37,6 +37,12 @@
     background-size: 20px 20px;
 }
 
+.background-kitchen{
+    background-image:   linear-gradient(#ffffff 1px, transparent 1px), 
+                        linear-gradient(to right, #ffffff 1px, #ffdfd7 1px);
+    background-size: 20px 20px;
+}
+
 .background-living{
     background-color: #d1c7d2;
     opacity: 1;
@@ -46,6 +52,8 @@
     background-position: 0 0,10px 10px;
     background-attachment: fixed;
 }
+
+
 
 
 /* this sets the overall working space, try not to touch it */
@@ -148,7 +156,7 @@ p {
 
 .p2 {
     font-family: 'Brother1816Book';
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .p3 {
@@ -250,6 +258,17 @@ p {
     border-radius: 20px;
     opacity: 100%
 }
+
+.content img.large-left {
+    max-width: 70%;  
+    height: auto;     
+    display: block;
+    margin-left: 0;      /* aligns image to left edge */
+    margin-right: auto;  /* pushes space to the right */
+    border-radius: 20px;
+    opacity: 100%;
+}
+
 
 .content iframe {
     max-width: 100%;
