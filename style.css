@@ -267,6 +267,16 @@ p {
     opacity: 100%
 }
 
+.content img.mega {
+    max-width: 100%;  
+    height: auto;     
+    display: block;  
+    margin: auto;
+    border-radius: 20px;
+    opacity: 100%
+}
+
+
 .content img.large-left {
     max-width: 70%;  
     height: auto;     
