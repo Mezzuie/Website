@@ -20,11 +20,18 @@
 
 /* these are my backgrounds for each page */
 .background-hallway{
-    background-image:   linear-gradient(#ffffff 1px, transparent 1px), 
-                        linear-gradient(to right, #ffffff 1px, #f4eaea 1px);
+    background-color: #000;
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
     background-attachment: fixed;
+    color: #f8cdc9;
+}
+
+.background-hallway a,
+.background-hallway a:visited,
+.background-hallway a:hover,
+.background-hallway a:active {
+  color: pink;
 }
 
 .background-library{
