@@ -21,9 +21,6 @@
 /* these are my backgrounds for each page */
 .background-hallway{
     background-color: #000;
-    background-size: 20px 20px;
-    background-position: 0 0,10px 10px;
-    background-attachment: fixed;
     color: #f8cdc9;
 }
 
@@ -32,6 +29,10 @@
 .background-hallway a:hover,
 .background-hallway a:active {
   color: pink;
+}
+
+.background-desk{
+    background-color: #e2c6c5;
 }
 
 .background-library{
@@ -81,6 +82,7 @@
     text-align: center;
     margin-left: 200px
 }
+
 
 .text-center {
     text-align: center;
@@ -157,9 +159,17 @@ h1 {
     padding-top: 20px;
 }
 
+
 h2 {
     font-family: 'OpenSauceSansSemibold';
     font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'OpenSauceSansSemibold';
+    font-size: 25px;
     padding: 0;
     margin: 0;
 }
