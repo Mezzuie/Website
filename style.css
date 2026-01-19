@@ -20,15 +20,15 @@
 
 /* these are my backgrounds for each page */
 .background-hallway{
-    background-color: #000;
-    color: #f8cdc9;
+    background-color: #70585c;
+    color: #f3f0f1;
 }
 
 .background-hallway a,
 .background-hallway a:visited,
 .background-hallway a:hover,
 .background-hallway a:active {
-  color: pink;
+  color: #f3f0f1;
 }
 
 .background-desk{
