@@ -8,14 +8,20 @@
     src: url('fonts/OpenSauceSans-SemiBold.otf') format('opentype');
 }
 
-@font-face {
-    font-family: 'DemonHunters';
-    src: url('fonts/hunters_k_pop/Hunters\ K-Pop.otf') format('opentype');
-}
 
 @font-face {
     font-family: 'MistakeNote';
     src: url('fonts/mistake_note/Mistake\ Note.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zain';
+    src: url('fonts/Zain/Zain-Regular.ttf') format('truetype');
 }
 
 /* these are my backgrounds for each page */
@@ -67,6 +73,17 @@
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
     background-attachment: fixed;
+}
+
+.background-filler{
+    background: linear-gradient(
+    105deg,
+    #ffb6c1 0%,
+    #e8c1cf 35%,
+    #c9c9d8 52%,
+    #a9c9df 70%,
+    #87ceeb 100%
+);
 }
 
 
@@ -199,6 +216,19 @@ p {
     font-size: 25px;
 }
 
+.f1 {
+    font-family: 'Zain';
+    font-size: 40px;
+}
+
+.f2 {
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
 
 
 /* Box layouts */
@@ -235,6 +265,13 @@ p {
 .study {
     text-align: left;
     font-size: 20px;
+}
+
+.filler {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
 }
 
 
