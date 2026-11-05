@@ -229,6 +229,10 @@ p {
     margin-top: 10px
 }
 
+.date {
+  font-size: 0.85em; 
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -408,7 +412,7 @@ p {
       }
 
 
-/* ipod widget */
+
 
 
 /* to do list */
